@@ -1,39 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
@@ -48,44 +12,36 @@ After you're finished please remove all the comments and instructions!
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+   - [Run Test](#run-tests)
+  - [Run Linters](#run-tests)
+  - [Run Endpoints](#Api-Endpoint-Testing)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Hello rails react] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Hello rails react is a project that I built as practical start for learning how to integrate ReactJs into Ruby on rails with the help of webpack and postgreqsl as a database management system. In this project I set up a table that stores messages in an api endpoint.
 
-**[your_project__name]** is a...
+**[Hello rails react]** is a ruby Api endpoint for storing messages.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+> Hello rails react is backend project
 
 <details>
-  <summary>Client</summary>
+<summary>Front-End</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://reactjs.org/">ReactJs</a></li>
   </ul>
 </details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
 <details>
 <summary>Database</summary>
   <ul>
@@ -97,11 +53,9 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
+> We can do CRUD operations on following things:
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **Users**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -111,7 +65,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://google.com)
+- [Comming Soon 🎈]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -119,7 +73,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+> In order to start with this project do as follows :
 
 To get a local copy up and running, follow these steps.
 
@@ -127,75 +81,50 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
+`gem install rails`
 
-```sh
- gem install rails
-```
- -->
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+`git clone git@github.com:Doheera-kosi/hello-rails-react.git`
 
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
+then
+
+`cd hello-rails-react`
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+`bundle install`
 
 ### Usage
 
-To run the project, execute the following command:
+`rails s`
 
-<!--
-Example command:
+### Run Test
+To run app test. run the following commad:
 
-```sh
-  rails server
-```
---->
+`rspec`
 
-### Run tests
+### Run Linters
 
 To run tests, run the following command:
 
-<!--
-Example command:
+`rubocop`
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+OR
 
-### Deployment
+`rubocop -a` 
 
-You can deploy this project using:
+**it will automatically correct the errors**
 
-<!--
-Example:
 
-```sh
+### Api-Endpoint-Testing
 
-```
- -->
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -203,19 +132,11 @@ Example:
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
+👨‍💻 **Evans Kupour**
+- GitHub: [Link to Github Profile](https://github.com/Doheera-kosi)
+- Twitter: [Link to Twitter Profile](https://twitter.com/@KupourE)
+- LinkedIn: [Link to LinkedIn Profile](https://www.linkedin.com/in/evans-kupour-1879421a3/)
 
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -223,11 +144,11 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
+> In upcoming weeks I will add some features as mentioned below
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- [ ] **Authentication and Authorization**
+- [ ] **API & Documentation**
+- [ ] **High UI**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -245,9 +166,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project then please give a ⭐️ and also share your feedback using github_issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -255,25 +174,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+❤️ [RoR Documentation](https://guides.rubyonrails.org)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -282,7 +183,5 @@ I would like to thank...
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
